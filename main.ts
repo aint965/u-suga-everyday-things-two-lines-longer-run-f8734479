@@ -14,19 +14,19 @@ import { join } from "node:path";
 //   pouring, since rain forms when tiny water drops in the sky grow
 //   heavy and fall."
 //
-// v2 (revision — the lines shipped below):
-//   Line 1: "pouring" became "leaking", so no unseen pourer is
-//   implied, and "falls on you" became "water from the sky reaches
-//   you", which keeps the picture centred on the rain itself and
-//   tightens the single colander analogy.
-//   Line 2: the mapping is now named precisely — rain falls in
-//   small separate drops, like water through a colander — and the
-//   gap is now specific about the real cause instead of vague:
-//   clouds hold no colander, and rain starts when tiny droplets
-//   join together until they are too heavy to float.
+// v3 (revision — the lines shipped below):
+//   Line 1: the water, not the cloud, now does the leaking — "water
+//   leaking out of a cloud through a giant kitchen colander". The
+//   v2 wording pictured the cloud itself squeezing through the
+//   colander's holes, which gives a 10-year-old the wrong picture;
+//   it is the water that passes through the holes in separate
+//   drops. Same single colander analogy, same "separate drops
+//   instead of one big splash" payoff, still one vivid sentence.
+//   Line 2: unchanged — it already says "like water through a
+//   colander", so it stays coherent with the fixed line 1.
 
 const LINE_1 =
-  "Rain is a cloud leaking through a giant kitchen colander, so water from the sky reaches you in separate drops instead of one big splash.";
+  "Rain is water leaking out of a cloud through a giant kitchen colander, so it reaches you in separate drops instead of one big splash.";
 const LINE_2 =
   "It fits because rain, like water through a colander, falls in small separate drops, but it leaves out the real cause, since clouds hold no colander and rain starts when tiny droplets join together until they are too heavy to float.";
 
